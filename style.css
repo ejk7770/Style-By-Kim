@@ -1,0 +1,91 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+  
+    h1, h2{
+  font-family: "DM Serif Text", serif;
+  font-style: normal;
+  font-weight: 200px;
+  color: #5d1313;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+  p, ul{
+    font-family: "DM Serif Text", serif;
+    font-weight: 200px;
+  }
+
+.headline {
+  background-image: url("title-background.jpg"); 
+  background-size: cover;
+  background-position: center;
+  padding: 120px; 
+  text-align: center;
+  color: white; 
+}
+
+.headline p, .headline a {
+  position: relative;
+  top: 100px;
+}
+
+.titlebackground {
+  padding: 120px;
+}
+
+.caption-headline {
+    font-size: 2rem; /* Bigger headline */
+    font-weight: bold;
+    color: #e28743;
+    margin-bottom: 0.5rem;
+  }
+
+  .caption-text {
+    font-size: 0.95rem;
+    color: #444;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.4;
+  }
+
+    
+    body {
+      background-color: white;
+      color: black;
+    }
+    .navbar {
+      background-color: #e28743 !important;
+    }
+    .navbar-nav .nav-item {
+  margin: 0 20px; 
+}
+    .navbar-brand, .nav-link {
+      color: white !important;
+      font-family: ;
+    }
+    .carousel-inner img {
+      max-height: 500px;
+      object-fit: cover;
+    }
+    .clickable-image {
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+    }
+    .clickable-image:hover {
+      transform: scale(1.1);
+    }
+    .footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+
+  
+  footer.custom-footer {
+    background-color: #e28743;
+    color: white;
+  }
+/* end of footer*/
+  
