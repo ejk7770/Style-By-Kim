@@ -32,6 +32,12 @@
   padding: 120px;
 }
 
+.bg-light-row {
+  background-color: #E6BA94; /* light gray or any color you want */
+  padding: 30px 0;
+  border-radius: 50px;
+}
+
 .caption-headline {
     font-size: 2rem; /* Bigger headline */
     font-weight: bold;
